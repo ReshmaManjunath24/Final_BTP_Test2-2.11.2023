@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service definition for Line of BU Type'
+define service Zlineof_bu_type_SD {
+  expose ZVH_lineof_bu_type;
+}

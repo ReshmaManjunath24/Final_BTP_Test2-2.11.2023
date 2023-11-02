@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Definition for Master Approvers list'
+define service ZSD_CUSTOMER_AP {
+  expose ZDD_CUSTOMER_AP;
+}

@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service definition Channel Group'
+define service ZChannel_Group_SD {
+  expose ZVH_CHANNEL_GROUP;
+}

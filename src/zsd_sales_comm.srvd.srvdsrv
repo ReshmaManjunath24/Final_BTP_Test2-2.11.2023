@@ -1,0 +1,6 @@
+@EndUserText.label: 'sales and comments'
+define service Zsd_sales_comm {
+  expose zdd_sales;
+  expose zdd_comm;
+  expose ZTest_Rule_Update;
+}

@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service definition for Channel'
+define service ZChannel_SD {
+  expose ZVH_CHANNEL;
+}

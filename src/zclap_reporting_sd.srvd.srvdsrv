@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service definition for Clap Reporting'
+define service ZCLAP_REPORTING_SD {
+  expose ZDD_CLAP_REPORT_PR;
+}

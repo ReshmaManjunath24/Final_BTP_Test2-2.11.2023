@@ -1,0 +1,5 @@
+@EndUserText.label: 'Service Definition for CW Customer'
+define service ZSD_CW_CUSTOMER {
+  expose ZDD_CW_CUSTOMER;
+  expose ZDD_CW_SALESAREA;
+}

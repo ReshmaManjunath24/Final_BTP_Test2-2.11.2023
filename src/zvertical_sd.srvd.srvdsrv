@@ -1,0 +1,4 @@
+@EndUserText.label: 'VERTICAL'
+define service ZVERTICAL_SD {
+  expose ZVH_Vertical_PR;
+}

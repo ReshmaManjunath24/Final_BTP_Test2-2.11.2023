@@ -1,0 +1,6 @@
+@EndUserText.label: 'customer ,Sales Area and Comments'
+define service ZSD_CLAP_ASSOCIATION {
+  expose ZDD_CLAP1_VIEW;
+  expose ZDD_SALE_AREA1;
+  expose ZDD_COMMENT2;
+}

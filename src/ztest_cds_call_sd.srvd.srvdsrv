@@ -1,0 +1,4 @@
+@EndUserText.label: 'test Service Definition'
+define service ZTEST_CDS_CALL_SD {
+  expose ZTEST_CDS_Call;
+}

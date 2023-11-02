@@ -1,0 +1,4 @@
+@EndUserText.label: 'pr'
+define service Zs_pr {
+  expose Z099_PRJ_VIEW;
+}

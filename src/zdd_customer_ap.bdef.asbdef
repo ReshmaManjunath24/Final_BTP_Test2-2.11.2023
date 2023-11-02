@@ -1,0 +1,21 @@
+managed implementation in class zbp_dd_customer_ap unique;
+//strict ( 1 );
+
+define behavior for ZDD_CUSTOMER_AP //alias <alias_name>
+persistent table ztab_customer_ap
+lock master
+//authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+
+  mapping for ZDD_CUSTOMER_AP  {
+
+
+     name = Name;
+     Roletype = Roletype;
+    email = Email;
+}
+}

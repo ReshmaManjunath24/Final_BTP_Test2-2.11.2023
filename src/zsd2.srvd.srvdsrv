@@ -1,0 +1,4 @@
+@EndUserText.label: 'sd'
+define service Zsd2 {
+  expose Z099_PRJ_VIEW;
+}

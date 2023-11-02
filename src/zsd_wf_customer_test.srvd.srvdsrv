@@ -1,0 +1,4 @@
+@EndUserText.label: 'service definition for workflow'
+define service ZSD_WF_CUSTOMER_TEST {
+  expose ZDD_WF_GET_APPROVERS_MD;
+}

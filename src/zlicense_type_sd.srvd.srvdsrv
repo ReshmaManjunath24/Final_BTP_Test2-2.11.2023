@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service definition for License Type'
+define service Zlicense_type_SD {
+  expose ZVH_license_type;
+}

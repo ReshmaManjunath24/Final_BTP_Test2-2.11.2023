@@ -1,0 +1,30 @@
+
+managed implementation in class zbp_099_norm_cds unique;
+strict;
+define behavior for Z099_NORM_CDS //alias <alias_name>
+persistent table Z009_CUST
+lock master
+authorization master ( instance )
+
+late numbering
+//etag master <field_name>
+{
+
+
+
+//field ( mandatory ) CustNumb;
+//field ( readonly, numbering : managed ) Custnumb;
+//field ( readonly, numbering : managed ) Custnumb;
+
+
+
+// mandatory fields that are required to create an Engine
+field ( mandatory )  Cntrolarea;
+
+
+
+ create;
+  update;
+  delete;
+ //validation ValidationForBusinessUnit on save { create; }
+}

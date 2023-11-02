@@ -1,0 +1,39 @@
+managed implementation in class zbp_dd_cw_customer unique;
+strict;
+
+define behavior for ZDD_CW_CUSTOMER alias Customer
+persistent table ztab_cw_custs
+lock master
+authorization master ( instance )
+//etag master <field_name>
+
+{
+field(numbering : managed)zcustomer_num ;
+
+  create;
+  update;
+  delete;
+  association _zdd_sale { create; }
+
+  validation ValidationForBusinessUnit on save { create; }
+
+mapping for ZDD_CW_CUSTOMER
+{
+
+  zbusiness_unit_name = zbusiness_unit_name;
+   zcustomer_legal_name = zcustomer_legal_name;
+}
+}
+define behavior for ZDD_CW_SALESAREA //alias <alias_name>
+persistent table ztab_cw_salearea
+lock dependent by _zdd_clap
+authorization dependent by _zdd_clap
+//etag master <field_name>
+{
+  update;
+  delete;
+  field ( readonly ) zcustomer_num;
+  association _zdd_clap;
+
+
+}

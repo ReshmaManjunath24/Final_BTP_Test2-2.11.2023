@@ -1,0 +1,8 @@
+@EndUserText.label: 'sd'
+define service Zsd {
+  expose Z099_NORM_CDS;
+  expose ZDD_TEST_CDS;
+  expose ZDD_CW_CUSTOMER;
+  expose ZDD_CW_SALESAREA;
+  expose ZDD_CUSTOMER_AP;
+}
